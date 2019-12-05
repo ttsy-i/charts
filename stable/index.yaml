@@ -3,11 +3,23 @@ entries:
   example:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2019-12-06T08:06:48.627333395+09:00"
+    created: "2019-12-06T08:20:00.955695463+09:00"
     description: A Helm chart for Kubernetes
     digest: c18c397c1312932fa5a88e55d03f70452202e4ea7ef61c00a9e5fbbbd9badc90
     name: example
     urls:
     - example-0.1.0.tgz
     version: 0.1.0
-generated: "2019-12-06T08:06:48.626907192+09:00"
+  sockshop:
+  - apiVersion: v1
+    created: "2019-12-06T08:20:00.956868488+09:00"
+    description: A Helm chart for Sock Shop
+    digest: 182543dd53c9ccbb25f0d31b61c50745284e88a24b4dbc85c411ab7b2ae0d887
+    engine: gotpl
+    home: https://microservices-demo.github.io/
+    icon: https://avatars3.githubusercontent.com/u/20818112
+    name: sockshop
+    urls:
+    - sockshop-0.2.0.tgz
+    version: 0.2.0
+generated: "2019-12-06T08:20:00.955237904+09:00"
